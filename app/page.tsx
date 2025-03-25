@@ -230,13 +230,13 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
-              <Button
+              {/* <Button
                 size="lg"
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white border-0 rounded-full group"
               >
                 View My Work
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Button>
+              </Button> */}
               <Link href='https://www.github.com/rogeralexei' target="blank">
               <Button size="lg" variant="outline" className="border-white/20 text-white hover:bg-white/10 rounded-full">
                 <Github className="mr-2 h-5 w-5" />
